@@ -1,0 +1,78 @@
+
+.contacts{
+    background-image: url(image.html/ankolegrill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 950px;
+     display: flex;
+     gap: 25px;
+    
+}
+.logo{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 44%;
+}
+.contact1{
+    margin-top: 18%;
+    border: 2px solid;
+    border-color: white;
+    padding: 5px;
+    margin-left: 25%;
+    height: 35%;
+    font-size: x-large;
+    color: white;
+
+}
+.contact2{
+    margin-top: 18%;
+    border: 2px solid;
+    border-color: white;
+    padding: 25px;
+    margin-right: 25%;
+    color: white;
+    font-size: x-large;
+    height: 31%;
+}
+#branch1{
+  font-size: xx-large;  
+}
+#branch2{
+    font-size: xx-large;
+}
+.navbar{
+    position: absolute;
+    color: white;
+    position: absolute;
+    margin-top: -5%;
+    display: flex;
+    border: 2px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+}
+    .navbar a{
+        color: gray;
+        text-decoration: none;
+        
+        
+    }
+    .insidebar{
+        margin-left: 10%;
+        display: flex;
+        gap: 25px;
+    }
+    .insidebar button{
+        background-color: black;
+        color: white;
+    
+    }
+    #reservation{
+        border: 2px;
+        padding: 20px;
+        background-color: darkgray;
+        border-radius: 20px;
+    }

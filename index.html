@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ba8f3e942.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="home-page">
+        <div class="page">
+            <img class="image" src="image.html/anokle it self (1).jpg">
+            <div class="text">welcome</div>
+        </div>
+        <div class="page">
+            <img class="image2" src="image.html/anko.jpg" style="width: 300%;">
+            <div class="text1">discover</div>
+        </div>
+        <div class="page">
+            <img class="image" src="image.html/33an.jpg">
+            <div class="text">exprience</div>
+        </div>
+        <div class="page">
+            <img class="image" src="image.html/44an.jpg">
+            <div class="text">taste</div>
+            </div>
+        </div>
+        <div class="page">
+            <img class="image" src="image.html/anokle drink.jpg">
+            <div class="text">savour</div>
+        </div>
+    </div>
+     <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("page");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000); 
+        }
+    </script>
+     <div class="navbar">
+        <div class="insidebar">
+            <i class="fa-solid fa-bars" style="color: #b2b6bd;"></i>
+            <i class="fa-regular fa-clock" style="color: #bcc0c8;"></i>
+             <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="review.html">Reviews</a>
+            <a href="event.html">Events</a>
+            <a href="live.html">Live</a>
+            <a href="contact.html">Contacts</a>
+            <a href="reservation.html"><button type="button" id="reservation"> Reservations</button></a>
+        </div>
+        <div class="logo"><img class="logo" src="image.html/ankolelogo-removebg-preview.png"></div>
+
+
+
+</body>
+
+</html>

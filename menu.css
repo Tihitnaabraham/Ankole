@@ -1,0 +1,97 @@
+.location1 img{
+    width: 78%;
+    height: 140%;
+    background-color:darkgrey ;
+}
+.locationName{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+#karibu{
+    color: red;
+    font-weight: 200;
+    font-size: 50px;
+}
+.kitisuru{
+    color: white;
+    font-size: 70px;
+    font-weight: 200;
+}
+#text1{
+    color: white;
+    font-size: x-large;
+
+
+}
+.location2 img{
+    width: 148%;
+    height: 140%;
+    margin-left: -45%;
+
+
+}
+.locationName2{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+#discover{
+    color: red;
+    font-size: 60px;
+    /* font-weight: 0; */
+}
+.kilimani{
+    color: white;
+    font-size: 70px;
+    /* font-weight: 200; */
+}
+.location{
+    display: flex;
+    gap: -1px;
+}
+.explore{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+body{
+    overflow: hidden;
+}
+.navbar{
+    color: white;
+    position: absolute;
+    margin-top: 6%;
+    display: flex;
+    border: 2px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+   
+    
+}
+.navbar a{
+    color: gray;
+    text-decoration: none;
+    
+    
+}
+.insidebar{
+    margin-left: 10%;
+    display: flex;
+    gap: 25px;
+}
+.insidebar button{
+    background-color: black;
+    color: white;
+
+}
+#reservation{
+    border: 2px;
+    padding: 20px;
+    background-color: darkgray;
+    border-radius: 20px;
+}

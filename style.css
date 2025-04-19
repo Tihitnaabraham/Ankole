@@ -1,0 +1,79 @@
+
+.page{
+    display: none;
+    position: absolute;
+}
+.logo{
+    position: absolute;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.image2{
+  /* margin-left: 35%; */
+  width: 200%;
+
+   
+}
+.text{
+    position: absolute;
+    font-weight: 70;
+    font-size: 150px;
+    color: darkgray;
+    top: 30%;
+    left: 34%;
+}
+.text1{
+    position: absolute;
+    font-weight: 70;
+    font-size: 150px;
+    color: darkgray;
+    top: 30%;
+    left:85% ;
+}
+.logo{
+    position: absolute;
+    text-align: center;
+    margin-top: -110%;
+    margin-left: 30%;
+}
+.navbar{
+    color: white;
+    position: absolute;
+    margin-top: 45%;
+    display: flex;
+    border: 2px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+   
+    
+}
+.navbar a{
+    color: gray;
+    text-decoration: none;
+    
+    
+}
+.insidebar{
+    margin-left: 10%;
+    display: flex;
+    gap: 25px;
+}
+.insidebar button{
+    background-color: black;
+    color: white;
+
+}
+#reservation{
+    border: 2px;
+    padding: 20px;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+body{
+    overflow: hidden;
+}

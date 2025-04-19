@@ -1,0 +1,124 @@
+.livePage{
+    background-image: url(image.html/live-image.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 150vh;
+   
+   position: relative;
+}
+.right{
+    margin-left: 20%;
+    position: fixed;
+
+}
+
+#title{
+    color: white;
+    font-size: xx-large;
+}
+.live{
+    font-size: 70px;
+    color: red;
+}
+
+.firstlive{
+    display: flex;
+    position: absolute;
+}
+.left{
+
+    
+    margin-left: 60%;
+    display: block;
+    margin-top: -150vh;
+    position: absolute;
+}
+.left img{
+    margin-top:5vh ;
+}
+.navbar{
+    color: white;
+    position: fixed;
+    margin-top: -35%;
+    display: flex;
+    border: 2px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    margin-left: 10%;
+   
+    
+}
+.navbar a{
+    color: gray;
+    text-decoration: none;
+    
+    
+}
+.insidebar{
+    margin-left: 10%;
+    display: flex;
+    gap: 25px;
+}
+.insidebar button{
+    background-color: black;
+    color: white;
+
+}
+#reservation{
+    border: 2px;
+    padding: 20px;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+/* body{ */
+    /* overflow: hidden; */
+/* } */
+.text{
+    color: white;
+    position: absolute;
+}
+.img1 {
+    display: flex;
+    margin-top: 5%;
+}
+.img1 img a{
+    /* width: 100%; */
+   width: 50%;
+}
+.bottomlive{
+    background-image: url(image.html/live-image.jpg);
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-size: cover;
+    margin-top: -10%;
+    position: relative;
+}
+.img2{
+    /* background-image: url(image.html/live-image.jpg); */
+    /* background-repeat: no-repeat; */
+    margin-left: 60%;
+    margin-top: 10%;
+    display: flex;
+   
+}
+.img2 img{
+width: 50%;
+
+}
+.monthe{
+    color: red;
+    font-size: x-large;
+    font-weight: 400;
+}
+.texts{
+    font-size: xx-large;
+    color: white;
+    font-weight: 400;
+}
+
+
+
+
